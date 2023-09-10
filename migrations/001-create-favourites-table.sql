@@ -1,0 +1,4 @@
+CREATE TABLE Favourites (
+  pose VARCHAR(255) PRIMARY KEY NOT NULL,
+  category VARCHAR(255) NOT NULL
+)
