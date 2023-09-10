@@ -7,7 +7,7 @@ ReadMe Under Construction!
 - Louise Osborne - Backend Manager
 - Holly Mathieson - Frontend/SASS Manager
 
-# Technologies and Tools used
+# Technologies and Tools Used
 - JavaScript
 - Node.js
 - npm
