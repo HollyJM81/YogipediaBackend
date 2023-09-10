@@ -1,4 +1,4 @@
-# yoga-app-backend
+# Yogipedia - A Yoga App - Backend Repository
 ReadMe Under Construction! 
 # Technologies and Tools used
 - JavaScript
