@@ -1,5 +1,5 @@
 CREATE TABLE Favourites (
   id SERIAL PRIMARY KEY,
-  poseName VARCHAR(255) NOT NULL,
-  poseCategory VARCHAR(255) NOT NULL,
+  pose VARCHAR(255) NOT NULL,
+  category VARCHAR(255) NOT NULL,
   );
