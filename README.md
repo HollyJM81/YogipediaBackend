@@ -1,5 +1,12 @@
 # Yogipedia - A Yoga App - Backend Repository
 ReadMe Under Construction! 
+
+## Engineers
+
+- Cristina Soare - Frontend/Components Manager
+- Louise Osborne - Backend Manager
+- Holly Mathieson - Frontend/SASS Manager
+
 # Technologies and Tools used
 - JavaScript
 - Node.js
