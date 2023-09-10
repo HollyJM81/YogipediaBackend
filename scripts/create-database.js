@@ -1,4 +1,4 @@
-const { Client } = require('pg')
+const { Client } = require('pg');
 const path = require('path');
 
 const envName = process.argv.slice(2)[0];
@@ -25,7 +25,7 @@ const createDatabase = async (databaseName) => {
     console.log('Database created!');
   } catch (err) {
     switch (err.code) {
-      case "42P04":
+      case '42P04':
         console.log('Database already exists!');
         break;
       default:

@@ -1,12 +1,10 @@
 const express = require('express');
+const { router } = require('./routes/favourites');
 
 const app = express();
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.status(200);
-  res.send('Hello World!');
-});
+app.use('/favourites', router);
 
 module.exports = app;
