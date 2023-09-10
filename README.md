@@ -14,7 +14,7 @@ ReadMe Under Construction!
 - nodemon
 - Express.js
 - PostgreSQL, pgAdmin
-- TDD using Mocha
+- TDD using Mocha, chai, supertest
 - Docker
 - Postman
 
