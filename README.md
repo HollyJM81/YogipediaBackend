@@ -8,5 +8,7 @@ ReadMe Under Construction!
 - Express.js
 - PostgreSQL, pgAdmin
 - TDD using Mocha
+- Docker
+- Postman
 
 
