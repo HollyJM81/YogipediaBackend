@@ -26,10 +26,12 @@ const config = {
   defaultDatabase: PGDATABASE,
 };
 
+const migrationDirectory = path.join(__dirname, '..', 'migrations'); // Adjust the path to migrations folder
+
 const migrateDB = async (config) => {
   console.log('Migrating Database...');
 
-  const output = await migrate(config, './migrations');
+  const output = await migrate(config, migrationDirectory); // Use the updated path
 
   if (!output.length) {
     console.log('Database already up to date!');
