@@ -153,129 +153,81 @@
         "category": "Seated"
       },
       {
-        "id": "",
-        "pose": "",
-        "sanskrit_name_adapted": "",
-        "pose_description": "",
-        "pose_benefits": "",
-        "url_png": "",
-        "category": ""
+        "id": "17",
+        "pose": "Boat",
+        "sanskrit_name_adapted": "Navasana",
+        "pose_description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.  The tailbone is lengthened into the earth and the pubis pulls toward the navel.  The shoulder blades are spread across the back and the hands reach around the back of the calves, with legs pulled towards the body.  The chin is tipped slightly toward the sternum so that the base of the skull lifts lightly away from the back of the neck.  Gaze is forward.",
+        "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "18",
+        "pose": "Half Boat",
+        "sanskrit_name_adapted": "Ardha Navasana",
+        "pose_description": "From a seated position the hands are gripped around the back of the legs and the knees are bent in a 90 degree angle.  Both legs are pulled in towards the abdomen.  The core is engaged to maintain balance on the sits bones (be sure that the back does not round).  The front of the torso lengthens between the pubis and top of the sternum as the spine extends in both directions reaching up to the sky and rooting down to the earth.  The gaze is forward and Bandhas are engaged.",
+        "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483073/yoga-api/2_ozh7sv.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "19",
+        "pose": "Chair",
+        "sanskrit_name_adapted": "Utkatasana",
+        "pose_description": "From a standing position, the feet are together and rooted into the earth with toes actively lifted.  The knees are bent and the weight of the body is on the heels of the feet.  The pelvis is tucked in and the ribcage is lifted.  The neck is a natural extension of the spine.  The arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward.",
+        "pose_benefits": "Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483078/yoga-api/9_ewvoun.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "20",
+        "pose": "Dolphin",
+        "sanskrit_name_adapted": "Ardha Pincha Mayurasana",
+        "pose_description": "From Downward-Facing Dog, the forearms are planted onto the earth with the elbows narrow and the palms down in a Sphinx position. The pelvis is tucked. The ribcage lifted. The feet are rooted and the legs are straight with the tailbone in dog tilt. The gaze is down and slightly forward",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression. Energizes the body. Stretches the shoulders, hamstrings, calves, arches, and hands. Strengthens the arms and legs. Helps relieve the symptoms of menopause. Relieves menstrual discomfort when done with the head supported. Helps prevent osteoporosis. Improves digestion. Relieves headache, insomnia, back pain, and fatigue. Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis. Warms up the ankles and the toes.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483080/yoga-api/14_k9lr9a.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "21",
+        "pose": "Downward-Facing Dog",
+        "sanskrit_name_adapted": "Adho Mukha Svanasana",
+        "pose_description": "From downward_dog.html the legs are straight with the sits bones tilted up and reaching for the sky.  The feet are flat with the heels firmly rooted.  One palm is flat with the knuckles evenly pressed into the earth.  The other hand reaches under the body and grasps the opposite ankle.  The spine is long and the heart is open toward the sky.  The neck is loose and the crown of the head is relaxed toward the earth.  The gaze is toward the center.",
+        "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483081/yoga-api/15_vkviqn.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "23",
+        "pose": "Extended Side Angle",
+        "sanskrit_name_adapted": "Utthita Parsvakonasana",
+        "pose_description": "From warrior II the lower body stays static while the upper body is folded forward at the crease of the hip.  One arm is extended toward the front with the bicep by the ear and the fingers spread wide while the other reaches down to the earth on the inside of the thigh.  The upper torso and the gaze twist up towards the sky.",
+        "pose_benefits": "Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders. Stimulates abdominal organs. Increases stamina.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483083/yoga-api/18_aqufak.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "24",
+        "pose": "Forearm Stand",
+        "sanskrit_name_adapted": "Pincha Mayurasana",
+        "pose_description": "From an inverted position, with the body perpendicular to the earth, the weight of the body is supported on the forearms that are parallel and pressed firmly into the earth.  The palms are flat.  The knuckles are evenly pressed into the earth.  The fingers are spread wide.  Both legs reach up toward the sky in a straight line with the pelvis tucked.  The ribcage is lifted.  The gaze is forward.",
+        "pose_benefits": "Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483084/yoga-api/19_jadqwc.png",
+        "category": "Strengthening"
+      },
+      {
+        "id": "25",
+        "pose": "Handstand",
+        "sanskrit_name_adapted": "Adho Mukha Vrksasana",
+        "pose_description": "In this inverted posture the weight of the body is on the hands - shoulder-width apart with fingers forward and parallel to each other (if the shoulders are tight, the index fingers are turned out slightly).  The shoulder blades are firm against the back torso and pulled up toward the tailbone.  The upper arms are rotated outward with the eye of the elbow to the front of the room to keep the shoulder blades broad while the outer arms hug inward in opposing forces for balance and stability.  The palms are spread and the bases of the index fingers are pressed firmly against the earth.  Balance is maintained by keeping the Bandhas engaged while pressing the earth away with straight arms and flexed feet.  The gaze is down and forward.",
+        "pose_benefits": "Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression.",
+        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483085/yoga-api/22_ojzmr8.png",
+        "category": "Strengthening"
       },
 ]
 
 
 
-//       ]
-//   },
-//   {
-//       "id": 3,
-//       "category_name": "Strengthening Yoga",
-//       "category_description": "Work and tone your entire body with strengthening yoga poses like Chair Pose, Warrior I Pose and Extended Side Angle Pose.",
-//       "poses": [
-//           {
-//               "id": 1,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Boat",
-//               "sanskrit_name_adapted": "Navasana",
-//               "sanskrit_name": "Nāvāsana",
-//               "translation_name": "nāva = boat, āsana = posture",
-//               "pose_description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.  The tailbone is lengthened into the earth and the pubis pulls toward the navel.  The shoulder blades are spread across the back and the hands reach around the back of the calves, with legs pulled towards the body.  The chin is tipped slightly toward the sternum so that the base of the skull lifts lightly away from the back of the neck.  Gaze is forward.",
-//               "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/4m64ztxkj8a4dab/boatstraightlegs.svg?raw=1"
-//           },
-//           {
-//               "id": 2,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Half Boat",
-//               "sanskrit_name_adapted": "Ardha Navasana",
-//               "sanskrit_name": "Ardha Nāvāsana",
-//               "translation_name": "ardha = half, nāva = boat, āsana = posture",
-//               "pose_description": "From a seated position the hands are gripped around the back of the legs and the knees are bent in a 90 degree angle.  Both legs are pulled in towards the abdomen.  The core is engaged to maintain balance on the sits bones (be sure that the back does not round).  The front of the torso lengthens between the pubis and top of the sternum as the spine extends in both directions reaching up to the sky and rooting down to the earth.  The gaze is forward and Bandhas are engaged.",
-//               "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483073/yoga-api/2_ozh7sv.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483073/yoga-api/2_ozh7sv.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/1nx0r94msxjwvyp/boatbentlegs.svg?raw=1"
-//           },
-//           {
-//               "id": 9,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Chair",
-//               "sanskrit_name_adapted": "Utkatasana",
-//               "sanskrit_name": "Utkaṭāsana",
-//               "translation_name": "utkaṭa = fierce, āsana = posture",
-//               "pose_description": "From a standing position, the feet are together and rooted into the earth with toes actively lifted.  The knees are bent and the weight of the body is on the heels of the feet.  The pelvis is tucked in and the ribcage is lifted.  The neck is a natural extension of the spine.  The arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward.",
-//               "pose_benefits": "Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483078/yoga-api/9_ewvoun.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483078/yoga-api/9_ewvoun.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/9emlawz8vayk8bm/chair.svg?raw=1"
-//           },
-//           {
-//               "id": 14,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Dolphin",
-//               "sanskrit_name_adapted": "Ardha Pincha Mayurasana",
-//               "sanskrit_name": "Pīñcha Mayūrāsana",
-//               "translation_name": "pīñcha = feather, mayūra = peacock, āsana = posture",
-//               "pose_description": "From Downward-Facing Dog, the forearms are planted onto the earth with the elbows narrow and the palms down in a Sphinx position. The pelvis is tucked. The ribcage lifted. The feet are rooted and the legs are straight with the tailbone in dog tilt. The gaze is down and slightly forward.",
-//               "pose_benefits": "Calms the brain and helps relieve stress and mild depression. Energizes the body. Stretches the shoulders, hamstrings, calves, arches, and hands. Strengthens the arms and legs. Helps relieve the symptoms of menopause. Relieves menstrual discomfort when done with the head supported. Helps prevent osteoporosis. Improves digestion. Relieves headache, insomnia, back pain, and fatigue. Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis. Warms up the ankles and the toes.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483080/yoga-api/14_k9lr9a.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483080/yoga-api/14_k9lr9a.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/px1foombb3v24se/dolphin.svg?raw=1"
-//           },
-//           {
-//               "id": 15,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Downward-Facing Dog",
-//               "sanskrit_name_adapted": "Adho Mukha Svanasana",
-//               "sanskrit_name": "Parivṛtta Adho Mukha Śvānāsana",
-//               "translation_name": "parivṛtta = revolved, adho = downward, mukha = facing, śvāna = dog, āsana = posture",
-//               "pose_description": "From downward_dog.html the legs are straight with the sits bones tilted up and reaching for the sky.  The feet are flat with the heels firmly rooted.  One palm is flat with the knuckles evenly pressed into the earth.  The other hand reaches under the body and grasps the opposite ankle.  The spine is long and the heart is open toward the sky.  The neck is loose and the crown of the head is relaxed toward the earth.  The gaze is toward the center.",
-//               "pose_benefits": "Calms the brain and helps relieve stress and mild depression.  Energizes the body.  Stretches the shoulders, neck, hamstrings, calves, arches, and hands.  Strengthens the arms and legs.  Helps relieve the symptoms of menopause.  Relieves menstrual discomfort when done with the head supported.  Helps prevent osteoporosis.  Improves digestion.  Relieves headache, insomnia, back pain, and fatigue.  Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483081/yoga-api/15_vkviqn.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483081/yoga-api/15_vkviqn.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/75xa1bduu2u5y7d/downdog.svg?raw=1"
-//           },
-//           {
-//               "id": 18,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Extended Side Angle",
-//               "sanskrit_name_adapted": "Utthita Parsvakonasana",
-//               "sanskrit_name": "Utthita Pārśvakoṇāsana",
-//               "translation_name": "utthita = extended, pārśva = side, koṇa = angle, āsana = posture",
-//               "pose_description": "From warrior II the lower body stays static while the upper body is folded forward at the crease of the hip.  One arm is extended toward the front with the bicep by the ear and the fingers spread wide while the other reaches down to the earth on the inside of the thigh.  The upper torso and the gaze twist up towards the sky.",
-//               "pose_benefits": "Strengthens and stretches the legs, knees, and ankles.  Stretches the groin, spine, waist, chest, lungs, and shoulders. Stimulates abdominal organs. Increases stamina.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483083/yoga-api/18_aqufak.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483083/yoga-api/18_aqufak.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/yzynxmyb9o7eras/extendedsideangle.svg?raw=1"
-//           },
-//           {
-//               "id": 19,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Forearm Stand",
-//               "sanskrit_name_adapted": "Pincha Mayurasana",
-//               "sanskrit_name": "Pīñcha Mayūrāsana",
-//               "translation_name": "pīñcha = feather, mayūra = peacock, āsana = posture",
-//               "pose_description": "From an inverted position, with the body perpendicular to the earth, the weight of the body is supported on the forearms that are parallel and pressed firmly into the earth.  The palms are flat.  The knuckles are evenly pressed into the earth.  The fingers are spread wide.  Both legs reach up toward the sky in a straight line with the pelvis tucked.  The ribcage is lifted.  The gaze is forward.",
-//               "pose_benefits": "Strengthens arms and shoulders.  Improves focus and balance.  Stretches the upper and lower back.  Strengthens the abdominal muscles.  Tones the abdominal area.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483084/yoga-api/19_jadqwc.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483084/yoga-api/19_jadqwc.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/kjlyju4m91qgoi6/forearmstand.svg?raw=1"
-//           },
-//           {
-//               "id": 22,
-//               "category_name": "Strengthening Yoga",
-//               "english_name": "Handstand",
-//               "sanskrit_name_adapted": "Adho Mukha Vrksasana",
-//               "sanskrit_name": "Adho Mukha Vṛkṣāsana",
-//               "translation_name": "adho = downward, mukha = facing, vṛkṣa = tree, āsana = posture",
-//               "pose_description": "In this inverted posture the weight of the body is on the hands - shoulder-width apart with fingers forward and parallel to each other (if the shoulders are tight, the index fingers are turned out slightly).  The shoulder blades are firm against the back torso and pulled up toward the tailbone.  The upper arms are rotated outward with the eye of the elbow to the front of the room to keep the shoulder blades broad while the outer arms hug inward in opposing forces for balance and stability.  The palms are spread and the bases of the index fingers are pressed firmly against the earth.  Balance is maintained by keeping the Bandhas engaged while pressing the earth away with straight arms and flexed feet.  The gaze is down and forward.",
-//               "pose_benefits": "Strengthens the shoulders, arms and wrists.  Stretches the belly.  Improves sense of balance.  Calms the brain and helps relieve stress and mild depression.",
-//               "url_svg": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483085/yoga-api/22_ojzmr8.svg",
-//               "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483085/yoga-api/22_ojzmr8.png",
-//               "url_svg_alt": "https://www.dropbox.com/s/p7pf5j0untktn9c/handstand.svg?raw=1"
-//           },
 //           {
 //               "id": 26,
 //               "category_name": "Strengthening Yoga",
