@@ -18,4 +18,7 @@ ReadMe Under Construction!
 - Docker
 - Postman
 
+# Licences and Acknowledgements
+
+API: https://github.com/alexcumplido/yoga-api 
 
