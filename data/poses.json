@@ -18,7 +18,7 @@
         "category": "Core"
       },
       {
-        "id": "4",
+        "id": "3",
         "pose": "Cat",
         "sanskrit_name": "Marjaryasana",
         "pose_description": "From box neutral shift some weight to the palms.  The wrists, elbows and shoulders are in one line.  The abdomen is pulled in and up with the spine arched in a strong Cobra spine.  The crown of the head is towards the earth and the neck is relaxed.  The gaze is between the arms towards the belly.",
@@ -27,7 +27,7 @@
         "category": "Core"
       },
       {
-        "id": "5",
+        "id": "4",
         "pose": "Chair",
         "sanskrit_name": "Utkatasana",
         "pose_description": "From a standing position, the feet are together and rooted into the earth with toes actively lifted.  The knees are bent and the weight of the body is on the heels of the feet.  The pelvis is tucked in and the ribcage is lifted.  The neck is a natural extension of the spine.  The arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward.",
@@ -73,24 +73,6 @@
       },
       {
         "id": "9",
-        "pose": "Boat",
-        "sanskrit_name": "Navasana",
-        "pose_description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.  The tailbone is lengthened into the earth and the pubis pulls toward the navel.  The shoulder blades are spread across the back and the hands reach around the back of the calves, with legs pulled towards the body.  The chin is tipped slightly toward the sternum so that the base of the skull lifts lightly away from the back of the neck.  Gaze is forward.",
-        "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.png",
-        "category": "Seated"
-      },
-      {
-        "id": "10",
-        "pose": "Half Boat",
-        "sanskrit_name": "Ardha Navasana",
-        "pose_description": "From a seated position the hands are gripped around the back of the legs and the knees are bent in a 90 degree angle.  Both legs are pulled in towards the abdomen.  The core is engaged to maintain balance on the sits bones (be sure that the back does not round).  The front of the torso lengthens between the pubis and top of the sternum as the spine extends in both directions reaching up to the sky and rooting down to the earth.  The gaze is forward and Bandhas are engaged.",
-        "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483073/yoga-api/2_ozh7sv.png",
-        "category": "Seated"
-      },
-      {
-        "id": "11",
         "pose": "Butterfly",
         "sanskrit_name": "Baddha Konasana",
         "pose_description": "In sitting position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  The hands may reach down and grasp and maneuver the feet so that the soles are facing upwards and the heels and little toes are connected.  The shoulders should be pulled back and no rounding of the spine.",
@@ -99,7 +81,7 @@
         "category": "Seated"
       },
       {
-        "id": "12",
+        "id": "10",
         "pose": "Seated Forward Bend",
         "sanskrit_name": "Paschimottanasana",
         "pose_description": "From a seated position with the sits bones rooted into the earth the legs extend forward to the degree that the chest and thighs can stay connected.  The fingers wrap around the toes.  The upper torso folds forward at the crease of the hips with the spine long.  The gaze is forward.",
@@ -108,7 +90,7 @@
         "category": "Seated"
       },
       {
-        "id": "13",
+        "id": "11",
         "pose": "Lotus",
         "sanskrit_name": "Padmasana",
         "pose_description": "Bring the bottom ankle and place it on top of the opposite knee, both ankles will be resting on top of the thighs.",
@@ -117,7 +99,7 @@
         "category": "Seated"
       },
       {
-        "id": "14",
+        "id": "12",
         "pose": "Half Lord of the Fishes",
         "sanskrit_name": "Ardha Matsyendrasana",
         "pose_description": "Begin in a seated position. Bend one knee so the sole of your foot is close to the opposite inner thigh. Bend your opposite knee in, foot on the floor, heel to the outside of your bent thigh. Extend your arm (same side of your Lotus leg) high into the sky and begin to twist it to the outside of your bent knee. Use your opposite hand as leverage to twist deeper. Hook your elbow to the outside of your thigh and gaze over your back shoulder. If you want to extend your twist deeper, wrap your arm around the shin of your bent knee and sweep your opposite arm around to meet it. Catch opposite fingertips or the wrist. Keep a long spine.",
@@ -126,7 +108,7 @@
         "category": "Seated"
       },
       {
-        "id": "15",
+        "id": "13",
         "pose": "Splits",
         "sanskrit_name": "Hanumanasana",
         "pose_description": "The hips are parallel and squared to the earth with one leg extended forward.  The opposite leg extended back with the knee and foot squared to the earth.  The inner thighs scissor towards each other.  The hands are by the side body or at the heart center in Anjali Mudra (Salutation Seal) or stretched straight up toward the sky.  The ribcage is lifted.  The heart is open.  The gaze is forward.",
@@ -135,7 +117,7 @@
         "category": "Seated"
       },
       {
-        "id": "16",
+        "id": "14",
         "pose": "Side Splits",
         "sanskrit_name": "Upavistha Konasana",
         "pose_description": "From a wide stance the legs are open and extended sideways to your degree of flexibility.  The outer edges of the feet are rotated and gripping toward the earth.  The weight of the body is supported by the arms.  The palms are rooted into the earth with the fingers pointing towards the body.  There should be no excess weight on the knee or ankle joints as you lower down to your degree of flexibility. The gaze is down and slightly forward.",
@@ -144,43 +126,7 @@
         "category": "Seated"
       },
       {
-        "id": "17",
-        "pose": "Boat",
-        "sanskrit_name": "Navasana",
-        "pose_description": "From a seated position the feet are lifted up so that the thighs are angled about 45-50 degrees relative to the earth.  The tailbone is lengthened into the earth and the pubis pulls toward the navel.  The shoulder blades are spread across the back and the hands reach around the back of the calves, with legs pulled towards the body.  The chin is tipped slightly toward the sternum so that the base of the skull lifts lightly away from the back of the neck.  Gaze is forward.",
-        "pose_benefits": "Strengthens the abdomen, hip flexors, and spine.  Stimulates the kidneys, thyroid and prostate glands, and intestines.  Helps relieve stress.  Improves digestion.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483071/yoga-api/1_txmirf.png",
-        "category": "Strengthening"
-      },
-      {
-        "id": "18",
-        "pose": "Half Boat",
-        "sanskrit_name": "Ardha Navasana",
-        "pose_description": "From a seated position the hands are gripped around the back of the legs and the knees are bent in a 90 degree angle.  Both legs are pulled in towards the abdomen.  The core is engaged to maintain balance on the sits bones (be sure that the back does not round).  The front of the torso lengthens between the pubis and top of the sternum as the spine extends in both directions reaching up to the sky and rooting down to the earth.  The gaze is forward and Bandhas are engaged.",
-        "pose_benefits": "Strengthens the abdomen, hip flexors and spine.  Stimulates the kidneys, thyroid, prostate glands and intestines.  Helps relieve stress.  Improves digestion.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483073/yoga-api/2_ozh7sv.png",
-        "category": "Strengthening"
-      },
-      {
-        "id": "19",
-        "pose": "Chair",
-        "sanskrit_name": "Utkatasana",
-        "pose_description": "From a standing position, the feet are together and rooted into the earth with toes actively lifted.  The knees are bent and the weight of the body is on the heels of the feet.  The pelvis is tucked in and the ribcage is lifted.  The neck is a natural extension of the spine.  The arms are lifted up toward the sky with the elbows straight and the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The gaze is forward.",
-        "pose_benefits": "Strengthens the ankles, thighs, calves, and spine.  Stretches shoulders and chest.  Stimulates the abdominal organs, diaphragm, and heart.  Reduces flat feet.  Energizes the entire body.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483078/yoga-api/9_ewvoun.png",
-        "category": "Strengthening"
-      },
-      {
-        "id": "20",
-        "pose": "Dolphin",
-        "sanskrit_name": "Ardha Pincha Mayurasana",
-        "pose_description": "From Downward-Facing Dog, the forearms are planted onto the earth with the elbows narrow and the palms down in a Sphinx position. The pelvis is tucked. The ribcage lifted. The feet are rooted and the legs are straight with the tailbone in dog tilt. The gaze is down and slightly forward",
-        "pose_benefits": "Calms the brain and helps relieve stress and mild depression. Energizes the body. Stretches the shoulders, hamstrings, calves, arches, and hands. Strengthens the arms and legs. Helps relieve the symptoms of menopause. Relieves menstrual discomfort when done with the head supported. Helps prevent osteoporosis. Improves digestion. Relieves headache, insomnia, back pain, and fatigue. Therapeutic for high blood pressure, asthma, flat feet, sciatica, and sinusitis. Warms up the ankles and the toes.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483080/yoga-api/14_k9lr9a.png",
-        "category": "Strengthening"
-      },
-      {
-        "id": "21",
+        "id": "15",
         "pose": "Downward-Facing Dog",
         "sanskrit_name": "Adho Mukha Svanasana",
         "pose_description": "From downward_dog.html the legs are straight with the sits bones tilted up and reaching for the sky.  The feet are flat with the heels firmly rooted.  One palm is flat with the knuckles evenly pressed into the earth.  The other hand reaches under the body and grasps the opposite ankle.  The spine is long and the heart is open toward the sky.  The neck is loose and the crown of the head is relaxed toward the earth.  The gaze is toward the center.",
@@ -189,7 +135,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "23",
+        "id": "16",
         "pose": "Extended Side Angle",
         "sanskrit_name": "Utthita Parsvakonasana",
         "pose_description": "From warrior II the lower body stays static while the upper body is folded forward at the crease of the hip.  One arm is extended toward the front with the bicep by the ear and the fingers spread wide while the other reaches down to the earth on the inside of the thigh.  The upper torso and the gaze twist up towards the sky.",
@@ -198,7 +144,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "24",
+        "id": "17",
         "pose": "Forearm Stand",
         "sanskrit_name": "Pincha Mayurasana",
         "pose_description": "From an inverted position, with the body perpendicular to the earth, the weight of the body is supported on the forearms that are parallel and pressed firmly into the earth.  The palms are flat.  The knuckles are evenly pressed into the earth.  The fingers are spread wide.  Both legs reach up toward the sky in a straight line with the pelvis tucked.  The ribcage is lifted.  The gaze is forward.",
@@ -207,7 +153,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "25",
+        "id": "18",
         "pose": "Handstand",
         "sanskrit_name": "Adho Mukha Vrksasana",
         "pose_description": "In this inverted posture the weight of the body is on the hands - shoulder-width apart with fingers forward and parallel to each other (if the shoulders are tight, the index fingers are turned out slightly).  The shoulder blades are firm against the back torso and pulled up toward the tailbone.  The upper arms are rotated outward with the eye of the elbow to the front of the room to keep the shoulder blades broad while the outer arms hug inward in opposing forces for balance and stability.  The palms are spread and the bases of the index fingers are pressed firmly against the earth.  Balance is maintained by keeping the Bandhas engaged while pressing the earth away with straight arms and flexed feet.  The gaze is down and forward.",
@@ -216,16 +162,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "26",
-        "pose": "Plank",
-        "sanskrit_name": "Phalakasana",
-        "pose_description": "The body is parallel to the earth.  The weight of the body is supported by straight arms and active toes.  The abdomen is pulled up towards the spine and the pelvis is tucked in.  The neck is a natural extension of the spine and the chin is slightly tucked.  The palms are flat and the elbows are close to the side body.  The joints are stacked with the wrists, elbows and shoulders in a straight line perpendicular to the earth.  The gaze follows the spine and the eyes are focused down.",
-        "pose_benefits": "",
-        "url_png": "",
-        "category": "Strengthening"
-      },
-      {
-        "id": "27",
+        "id": "19",
         "pose": "Pyramid",
         "sanskrit_name": "Parsvottanasana",
         "pose_description": "From a standing position with one leg forward and one back lean the torso forward at the crease of the hip joint.  Stop when the torso is parallel to the floor.  Press the fingertips or flat palms to the floor on either side of the front foot, maintaining a straight elongated spine.  If it isn’t possible to touch the floor, or to maintain a straight spine, support the hands on a pair of blocks.  Press the thighs back and lengthen the torso forward, lifting up through the top of the sternum.  Then, as flexibility allows, bring the front torso closer to the top of the thigh without rounding the spine.  Eventually the long front torso will rest down on the thigh.  The gaze is down.",
@@ -234,7 +171,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "28",
+        "id": "20",
         "pose": "Triangle",
         "sanskrit_name": "Trikonasana",
         "pose_description": "From a standing position, the legs are straight and separated into a wide stance.  The feet are aligned and flat on the earth with the back foot in a 60-degree angle towards the front.  The inner thighs are rotated externally away from each other.  The pelvis is tucked and the ribcage is lifted.  One arm extends up towards the sky as the other reaches down to the earth.  Both arms are aligned with the shoulders in a straight line.  The fingers reach out as the shoulder blades squeeze together.  The gaze is toward the front.",
@@ -243,7 +180,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "29",
+        "id": "21",
         "pose": "Warrior One",
         "sanskrit_name": "Virabhadrasana One",
         "pose_description": "From a standing position, the legs are in a wide stance with the feet aligned and flat on the earth.  The back foot is in a 60-degree angle towards the front.  The hips are squared.  The inner thighs are rotated towards each other.  The front knee is bent in a 90-degree angle directly above the ankle.  The arms extend up to the sky with the biceps by the ears.  The hands can be together or separated and facing each other with the fingers spread wide.  The ribcage is lifted and the pelvis tucked.  The gaze is forward.",
@@ -252,7 +189,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "30",
+        "id": "22",
         "pose": "Warrior Two",
         "sanskrit_name": "Virabhadrasana Two",
         "pose_description": "From a standing position, the legs are separated into a wide stance.  The front knee is bent in a 90-degree angle directly above the ankle.  The back leg is extended and straight with the outside edge of the back foot gripping the earth in a 60-degree angle towards the front.  The inner thighs are externally rotated away from each other.  The pelvis is tucked.  The ribcage is lifted.  The arms are extended out to the sides and are aligned with the shoulders in a straight line with the fingers reaching out as the shoulder blades squeeze together.  The gaze is toward the front fingers.",
@@ -261,7 +198,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "31",
+        "id": "23",
         "pose": "Warrior Three",
         "sanskrit_name": "Virabhadrasana Three",
         "pose_description": "From a standing position, one leg is rooted and perpendicular to the earth while the other leg is raised, extended back and parallel to the earth.  The head of the thighbone of the standing leg presses back towards the heel and is actively rooted into the earth.  The arms and the extended leg lengthen in opposing directions with Bandhas engaged.  The hips are squared and the tailbone presses firmly into the pelvis.  The arms, torso, and extended raised leg should be positioned relatively parallel to the floor.  The gaze is forward or down.",
@@ -270,7 +207,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "32",
+        "id": "24",
         "pose": "Wheel",
         "sanskrit_name": "Urdhva Dhanurasana",
         "pose_description": "Pressed up from a supine position, lying on your back, the palms are rooted into the earth with the fingers pointed towards the heels.  The feet are grounded.  The hips are pressed up.  The thighs are rotated inward.  The thoracic spine is arched creating a strong crescent arch along the spinal column.  The gaze is forward.",
@@ -279,7 +216,7 @@
         "category": "Strengthening"
       },
       {
-        "id": "33",
+        "id": "25",
         "pose": "Bow",
         "sanskrit_name": "Dhanurasana",
         "pose_description": "From a prone position with the abdomen on the earth, the hands grip the ankles (but not the tops of the feet) with knees no wider than the width of your hips.  The heels are lifted away from the buttocks and at the same time the thighs are lifted away from the earth working opposing forces as the heart center, hips and back open.  The gaze is forward.",
@@ -288,7 +225,7 @@
         "category": "Chest Opening"
       },
       {
-        "id": "34",
+        "id": "26",
         "pose": "Camel",
         "sanskrit_name": "Ustrasana",
         "pose_description": "From a kneeling position the knees are hip width apart and the thighs are perpendicular to the earth.  The inner thighs are narrowed and rotated slightly inward with the buttocks engaged but not hardened.  The tailbone is tucked under but the hips do not puff forward.  The shins and tops of the feet are pressed firmly into the earth.  The ribcage is open, along with the heart center, but the lower front ribs do not protrude sharply towards the sky.  The lower back lifts the ribs away from the pelvis to keep the lower spine as long as possible.  The base of the palms are pressed firmly against the soles (or heels) of the feet and the fingers are pointed toward the toes.  The arms are extended straight and are turned slightly outward at the shoulder joint so the elbow creases face forward without squeezing the shoulder blades together.  The neck is in a relatively neutral position, neither flexed nor extended, or (for the advanced practitioners only) the head drops back.  Be careful not to strain your neck and harden your throat.  The gaze is either towards the sky or towards the earth, depending upon your flexibility.",
@@ -297,7 +234,7 @@
         "category": "Chest Opening"
       },
       {
-        "id": "35",
+        "id": "27",
         "pose": "Cow",
         "sanskrit_name": "Bitilasana",
         "pose_description": "From  box neutral the ribcage is lifted with a gentle sway in the low back.  The tailbone lifts up into dog tilt.  The eyes are soft and the gaze is to the sky.",
@@ -306,16 +243,7 @@
         "category": "Chest Opening"
       },
       {
-        "id": "36",
-        "pose": "Sphinx",
-        "sanskrit_name": "Salamba Bhujangasana",
-        "pose_description": "From a prone position with the pelvic bowl is firmly contracted interiorly towards the center line of the body while the pubis is tucked under.  The legs are extended back and the tops of the feet are flat.  The palms are flat and the elbows are on the mat, stacked right below the shoulders.  On an inhalation, lift the sternum and extend the neck away from shoulders with the elbows, palms and pelvic bone firmly attached to the mat.",
-        "pose_benefits": "Strengthens the spine.  Stretches the chest, the lungs, the shoulders and the abdomen.  Stimulates the abdominal organs.  Opens the heart and the lungs.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483092/yoga-api/35_dytwvz.png",
-        "category": "Chest Opening"
-      },
-      {
-        "id": "37",
+        "id": "28",
         "pose": "Upward-Facing Dog",
         "sanskrit_name": "Urdhva Mukha Svsnssana",
         "pose_description": "The body is in a prone position parallel to the earth.  The weight of the body is supported equally by the straight arms and the tops of the feet which press firmly into the earth.  The shoulders are rotated back and down.  The ribcage is lifted and pulled thru to the front in a slight upper thoracic backbend.  The joints are stacked with the wrists, elbows and shoulders in a straight-line.  The neck is a natural extension of the spine and the chin is slightly tucked.  The abdomen is pulled up towards the spine.  The palms are flat and the elbows are close to the side body.  The gaze is forward.",
@@ -324,16 +252,7 @@
         "category": "Chest Opening"
       },
       {
-        "id": "38",
-        "pose": "Wheel",
-        "sanskrit_name": "Urdhva Dhanurasana",
-        "pose_description": "Pressed up from a supine position, lying on your back, the palms are rooted into the earth with the fingers pointed towards the heels.  The feet are grounded.  The hips are pressed up.  The thighs are rotated inward.  The thoracic spine is arched creating a strong crescent arch along the spinal column.  The gaze is forward.",
-        "pose_benefits": "Strengthens the arms, wrists, legs, buttocks, abs, and spine.  Stimulates the thyroid and pituitary.  Increases energy and counteracts depression.  Therapeutic for asthma, back pain, infertility, and osteoporosis.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483097/yoga-api/47_w2jsof.png",
-        "category": "Chest Opening"
-      },
-      {
-        "id": "39",
+        "id": "29",
         "pose": "Wild Thing",
         "sanskrit_name": "Camatkarasana",
         "pose_description": "From downward dog pose, elevate one leg toward the sky and stack the corresponding hip over the other hip.  Bring the upper heel as close to the buttocks as possible.  The hips remain stacked; then bring the shoulders forward slowly over the hands.  Replace the corresponding hand to the upraised leg with the other hand and flip yourself over and extend the top hand forward.  The bottom foot is now facing toward the front of the mat and you remain on the ball of the top foot and the corresponding knee is bent.  Continue to lift hips up towards the sky and continue reaching the free hand towards the front of the room and slightly downwards.  Allow the head to curl back.",
@@ -342,34 +261,7 @@
         "category": "Chest Opening"
       },
       {
-        "id": "40",
-        "pose": "Bow",
-        "sanskrit_name": "Dhanurasana",
-        "pose_description": "From a prone position with the abdomen on the earth, the hands grip the ankles (but not the tops of the feet) with knees no wider than the width of your hips.  The heels are lifted away from the buttocks and at the same time the thighs are lifted away from the earth working opposing forces as the heart center, hips and back open.  The gaze is forward.",
-        "pose_benefits": "Stretches the entire front of the body, ankles, thighs and groins, abdomen and chest, and throat, and deep hip flexors (psoas).  Strengthens the back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483072/yoga-api/3_aa0fgk.png",
-        "category": "Backbend"
-      },
-      {
-        "id": "41",
-        "pose": "Camel",
-        "sanskrit_name": "Ustrasana",
-        "pose_description": "From a kneeling position the knees are hip width apart and the thighs are perpendicular to the earth.  The inner thighs are narrowed and rotated slightly inward with the buttocks engaged but not hardened.  The tailbone is tucked under but the hips do not puff forward.  The shins and tops of the feet are pressed firmly into the earth.  The ribcage is open, along with the heart center, but the lower front ribs do not protrude sharply towards the sky.  The lower back lifts the ribs away from the pelvis to keep the lower spine as long as possible.  The base of the palms are pressed firmly against the soles (or heels) of the feet and the fingers are pointed toward the toes.  The arms are extended straight and are turned slightly outward at the shoulder joint so the elbow creases face forward without squeezing the shoulder blades together.  The neck is in a relatively neutral position, neither flexed nor extended, or (for the advanced practitioners only) the head drops back.  Be careful not to strain your neck and harden your throat.  The gaze is either towards the sky or towards the earth, depending upon your flexibility.",
-        "pose_benefits": "Stretches the entire front of the body, the ankles, thighs and groins, abdomen and chest, and throat.  Stretches the deep hip flexors (psoas).  Strengthens back muscles.  Improves posture.  Stimulates the organs of the abdomen and neck.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483075/yoga-api/6_ri1w0e.png",
-        "category": "Backbend"
-      },
-      {
-        "id": "42",
-        "pose": "Cow",
-        "sanskrit_name": "Bitilasana",
-        "pose_description": "From  box neutral the ribcage is lifted with a gentle sway in the low back.  The tailbone lifts up into dog tilt.  The eyes are soft and the gaze is to the sky.",
-        "pose_benefits": "Removes fatigue.  Improves breathing and the circulation of blood to the brain.  Rejuvenates the entire body.",
-        "url_png": "https://res.cloudinary.com/dko1be2jy/image/upload/fl_sanitize/v1676483077/yoga-api/8_wi10sn.png",
-        "category": ""
-      },
-      {
-        "id": "43",
+        "id": "30",
         "pose": "Pigeon",
         "sanskrit_name": "Supta Kapotasana",
         "pose_description": "Lie on the back in supine position.  Bend the knees, heels close to SI bones and cross one ankle over the opposite knee.  Thread the hands or reach through between the thighs.  Lift the foot off the floor and hold the bent knee behind the thigh or shin to bring it closer to the chest, make sure that the acrum is rooted to the floor.",
@@ -378,7 +270,7 @@
         "category": "Backbend"
       },
       {
-        "id": "44",
+        "id": "31",
         "pose": "King Pigeon",
         "sanskrit_name": "Eka Pada Rajakapotasana",
         "pose_description": "From a seated position with the hips squared, one leg is extended forward with the knee bent and parallel to the earth.  The front heel is rooted close to the groin (or extended out in a 90 degree angle if flexibility allows).  The other leg is extended back with the knee bent and perpendicular to the earth.  The back foot is hooked on the inside of the elbow of the back arm.  The front elbow is bent upward perpendicular to the earth with the bicep by the ear.  The fingers are interlaced to connect the bind behind the body and assist in opening the chest.  The gaze is natural and forward.",
@@ -387,7 +279,7 @@
         "category": "Backbend"
       },
       { 
-        "id": "45",
+        "id": "32",
         "pose": "Sphinx",
         "sanskrit_name": "Salamba Bhujangasana",
         "pose_description": "From a prone position with the pelvic bowl is firmly contracted interiorly towards the center line of the body while the pubis is tucked under.  The legs are extended back and the tops of the feet are flat.  The palms are flat and the elbows are on the mat, stacked right below the shoulders.  On an inhalation, lift the sternum and extend the neck away from shoulders with the elbows, palms and pelvic bone firmly attached to the mat.",
@@ -396,7 +288,7 @@
         "category": "Backbend"
       },
       { 
-        "id": "46",
+        "id": "33",
         "pose": "Upward-Facing Dog",
         "sanskrit_name": "Urdhva Mukha Svsnssana",
         "pose_description": "The body is in a prone position parallel to the earth.  The weight of the body is supported equally by the straight arms and the tops of the feet which press firmly into the earth.  The shoulders are rotated back and down.  The ribcage is lifted and pulled thru to the front in a slight upper thoracic backbend.  The joints are stacked with the wrists, elbows and shoulders in a straight-line.  The neck is a natural extension of the spine and the chin is slightly tucked.  The abdomen is pulled up towards the spine.  The palms are flat and the elbows are close to the side body.  The gaze is forward.",
@@ -405,7 +297,7 @@
         "category": "Backbend"
       },
       { 
-        "id": "47",
+        "id": "34",
         "pose": "Wheel",
         "sanskrit_name": "Urdhva Dhanurasana",
         "pose_description": "Pressed up from a supine position, lying on your back, the palms are rooted into the earth with the fingers pointed towards the heels.  The feet are grounded.  The hips are pressed up.  The thighs are rotated inward.  The thoracic spine is arched creating a strong crescent arch along the spinal column.  The gaze is forward.",
