@@ -2,10 +2,10 @@ const db = require('../db/index');
 
 // Add a favourite pose
 const createFavourite = async (req, res) => {
-  const { pose, category } = req.body;
+  const { pose_name, category } = req.body;
 
   try {
-    const { rows: [favourite] } = await db.query('INSERT INTO Favourites (pose, category) VALUES ($1, $2) RETURNING *', [pose, category]);
+    const { rows: [favourite] } = await db.query('INSERT INTO Favourites (pose_name, category) VALUES ($1, $2) RETURNING *', [pose_name, category]);
     res.status(201).json(favourite);
   } catch (err) {
     res.status(500).json(err.message);

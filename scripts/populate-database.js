@@ -5,7 +5,7 @@ const { Client } = require('pg');
 const rawData = fs.readFileSync('./data/poses.json');
 const posesData = JSON.parse(rawData);
 
-// Database connection configuration
+// Database connection configuration (update these values as needed)
 const dbConfig = {
   user: 'postgres',
   host: 'localhost',
@@ -24,34 +24,29 @@ async function populateDatabase() {
 
     // Define the INSERT query with placeholders for all columns
     const insertQuery = `
-      INSERT INTO Favourites (
-        id, english_name, sanskrit_name_adapted, sanskrit_name, 
-        translation_name, pose_description, pose_benefits, 
-        url_svg, url_png, url_svg_alt, pose, category
-      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)
+      INSERT INTO Poses (
+        pose_name, sanskrit_name, pose_description, pose_benefits,
+        url_png, category, level
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7)
     `;
 
     // Iterate over the JSON data and insert records
     const insertPromises = [];
     posesData.forEach((pose) => {
       const values = [
-        pose.id,
-        pose.english_name,
-        pose.sanskrit_name_adapted,
+        pose.pose_name,
         pose.sanskrit_name,
-        pose.translation_name,
         pose.pose_description,
         pose.pose_benefits,
-        pose.url_svg,
         pose.url_png,
-        pose.url_svg_alt,
-        pose.pose,
         pose.category,
+        pose.level,
       ];
       insertPromises.push(client.query(insertQuery, values));
     });
 
     await Promise.all(insertPromises);
+    console.log('Data insertion completed successfully.');
   } catch (error) {
     console.error('Error inserting data:', error);
   } finally {
