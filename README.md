@@ -7,6 +7,10 @@ ReadMe Under Construction!
 - Louise Osborne - Backend Manager
 - Holly Mathieson - Frontend/SASS Manager
 
+# Running Instructions
+
+- npm start 
+
 # Technologies and Tools Used
 - JavaScript
 - Node.js
