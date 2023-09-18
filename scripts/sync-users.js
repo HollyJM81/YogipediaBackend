@@ -1,5 +1,5 @@
 const { Client } = require('pg');
-const admin = require('./firebase');
+const admin = require('../firebase');
 
 // Database connection configuration
 const dbConfig = {

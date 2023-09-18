@@ -22,6 +22,10 @@ async function populateDatabase() {
     // Connect to the database
     await client.connect();
 
+    // Check if data already exists in the database
+    const { rows: existingPoses } = await client.query('SELECT pose_name FROM Poses');
+    const existingPoseNames = new Set(existingPoses.map((row) => row.pose_name));
+
     // Define the INSERT query with placeholders for all columns
     const insertQuery = `
       INSERT INTO Poses (
@@ -30,19 +34,21 @@ async function populateDatabase() {
       ) VALUES ($1, $2, $3, $4, $5, $6, $7)
     `;
 
-    // Iterate over the JSON data and insert records
+    // Iterate over the JSON data and insert records if they don't already exist
     const insertPromises = [];
     posesData.forEach((pose) => {
-      const values = [
-        pose.pose_name,
-        pose.sanskrit_name,
-        pose.pose_description,
-        pose.pose_benefits,
-        pose.url_png,
-        pose.category,
-        pose.level,
-      ];
-      insertPromises.push(client.query(insertQuery, values));
+      if (!existingPoseNames.has(pose.pose_name)) {
+        const values = [
+          pose.pose_name,
+          pose.sanskrit_name,
+          pose.pose_description,
+          pose.pose_benefits,
+          pose.url_png,
+          pose.category,
+          pose.level,
+        ];
+        insertPromises.push(client.query(insertQuery, values));
+      }
     });
 
     await Promise.all(insertPromises);

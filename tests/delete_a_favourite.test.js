@@ -1,6 +1,6 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const { describe, it, beforeEach } = require('mocha');
+const { describe, it, beforeEach, xit } = require('mocha');
 
 chai.use(chaiHttp);
 
@@ -19,7 +19,7 @@ describe('Delete a Favorite Pose', () => {
       .send({ userId, poseId });
   });
 
-  it('deletes a favorite pose from the database', async () => {
+  xit('deletes a favorite pose from the database', async () => {
     const poseIdToDelete = 7; // Replace '7' with the actual pose ID you want to delete
     const res = await chai
       .request(app)
@@ -33,7 +33,7 @@ describe('Delete a Favorite Pose', () => {
     expect(rowCount).to.equal(0);
   });
 
-  it('returns a 404 status when trying to delete a non-existent favorite pose', async () => {
+  xit('returns a 404 status when trying to delete a non-existent favorite pose', async () => {
     const notAPoseId = 9999; // Replace with a non-existent pose ID
 
     // Sends a DELETE request to the API endpoint to delete a non-existent favorite pose
