@@ -20,12 +20,17 @@ async function syncUsersToDatabase() {
     // Fetch user data from Firebase
     const users = await admin.auth().listUsers();
 
-    // Insert users into the Users table
-    const insertQuery = 'INSERT INTO Users (firebase_uid, display_name, email) VALUES ($1, $2, $3)';
+    // Insert users into the Users table if they don't already exist
+    const insertQuery = `
+      INSERT INTO Users (firebase_uid, display_name, email)
+      VALUES ($1, $2, $3)
+      ON CONFLICT (firebase_uid)
+      DO NOTHING
+    `;
 
-    const insertPromises = users.users.map((user) => {
+    const insertPromises = users.users.map(async (user) => {
       const values = [user.uid, user.displayName || null, user.email];
-      return client.query(insertQuery, values);
+      await client.query(insertQuery, values);
     });
 
     await Promise.all(insertPromises);
@@ -41,3 +46,5 @@ async function syncUsersToDatabase() {
 
 // Call the function to start user synchronization
 syncUsersToDatabase();
+
+
