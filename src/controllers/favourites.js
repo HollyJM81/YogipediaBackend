@@ -6,7 +6,7 @@ const createFavourite = async (req, res) => {
 
   try {
     const { rows: [favorite] } = await db.query(
-      'INSERT INTO UserFavourites (user_id, pose_id) VALUES ($1, $2) RETURNING *',
+      'INSERT INTO userfavourites (user_id, pose_id) VALUES ($1, $2) RETURNING *',
       [userId, poseId],
     );
 
@@ -20,7 +20,7 @@ const createFavourite = async (req, res) => {
 
 const getFavourites = async (req, res) => {
   try {
-    const { rows: favourites } = await db.query('SELECT * FROM Poses');
+    const { rows: favourites } = await db.query('SELECT * FROM userfavourites');
     res.status(200).json(favourites);
   } catch (err) {
     res.status(500).json(err.message);
@@ -33,7 +33,7 @@ const removeFavourite = async (req, res) => {
 
   try {
     // Check if the favorite item exists before deleting
-    const { rowCount } = await db.query('DELETE FROM Poses WHERE id = $1 RETURNING *', [id]);
+    const { rowCount } = await db.query('DELETE FROM userfavourites WHERE pose_id = $1 RETURNING *', [id]);
 
     if (rowCount === 0) {
       res.status(404).json({ message: 'Favourite not found.' });
