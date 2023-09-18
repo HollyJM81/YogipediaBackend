@@ -3,9 +3,9 @@ ReadMe Under Construction!
 
 ## Engineers
 
-- Cristina Soare - Frontend/Components Manager
-- Louise Osborne - Backend Manager
-- Holly Mathieson - Frontend/SASS Manager
+- Cristina Soare - Frontend/Components
+- Louise Osborne - Backend 
+- Holly Mathieson - Frontend/SASS 
 
 # Running Instructions
 
