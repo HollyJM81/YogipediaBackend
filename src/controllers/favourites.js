@@ -2,10 +2,10 @@ const db = require('../db/index');
 
 // Add a favourite pose
 const createFavourite = async (req, res) => {
-  const { pose_name, category } = req.body;
+  const { poseName, category } = req.body;
 
   try {
-    const { rows: [favourite] } = await db.query('INSERT INTO Favourites (pose_name, category) VALUES ($1, $2) RETURNING *', [pose_name, category]);
+    const { rows: [favourite] } = await db.query('INSERT INTO Poses (pose_name, category) VALUES ($1, $2) RETURNING *', [poseName, category]);
     res.status(201).json(favourite);
   } catch (err) {
     res.status(500).json(err.message);
@@ -16,7 +16,7 @@ const createFavourite = async (req, res) => {
 
 const getFavourites = async (req, res) => {
   try {
-    const { rows: favourites } = await db.query('SELECT * FROM Favourites');
+    const { rows: favourites } = await db.query('SELECT * FROM Poses');
     res.status(200).json(favourites);
   } catch (err) {
     res.status(500).json(err.message);
@@ -29,7 +29,7 @@ const removeFavourite = async (req, res) => {
 
   try {
     // Check if the favorite item exists before deleting
-    const { rowCount } = await db.query('DELETE FROM Favourites WHERE id = $1 RETURNING *', [id]);
+    const { rowCount } = await db.query('DELETE FROM Poses WHERE id = $1 RETURNING *', [id]);
 
     if (rowCount === 0) {
       res.status(404).json({ message: 'Favourite not found.' });

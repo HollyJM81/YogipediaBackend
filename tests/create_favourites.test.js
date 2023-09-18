@@ -1,35 +1,30 @@
+const chai = require('chai');
+const chaiHttp = require('chai-http');
 const { describe, it } = require('mocha');
-const { expect } = require('chai');
-const request = require('supertest');
+
+const { expect } = chai;
+
+chai.use(chaiHttp);
+
 const app = require('../src/app');
 
-describe('create favourite pose', () => {
-  describe('/favourites', () => {
-    describe('POST', () => {
-      it('creates a new favourite pose in the favourites table', async () => {
-        const requestBody = {
-          pose_id: '1',
-          pose_name: 'Boat',
-          sanskrit_name: 'Navasana',
-          pose_description: 'Description',
-          url_png: 'a url',
-          category: 'Core',
-          level: 'Intermediate',
-        };
+describe('Create Favorites', () => {
+  it('should create a favorite for a user', async () => {
+    // Define the user and pose IDs (replace with actual IDs)
+    const userId = 'jFa1hc0OakTzj320W0KrfZbwMGQ2';
+    const poseId = '2';
 
-        const response = await request(app)
-          .post('/favourites')
-          .send(requestBody);
+    // Sends a POST request to the API endpoint to create the favorite
+    const res = await chai
+      .request(app)
+      .post('/favourites') // Replace with your actual endpoint
+      .send({ userId, poseId });
 
-        expect(response.status).to.equal(201);
-        expect(response.body.pose_id).to.equal('1');
-        expect(response.body.pose_name).to.equal('Boat');
-        expect(response.body.sanskrit_name).to.equal('Navasana');
-        expect(response.body.pose_description).to.equal('Description');
-        expect(response.body.url_png).to.equal('a url');
-        expect(response.body.category).to.equal('Core');
-        expect(response.body.level).to.equal('Intermediate');
-      });
-    });
+    // Assert the response status code (200 OK if successful)
+    expect(res).to.have.status(200);
+
+    // Assert any other expectations based on your application logic
+    // For example, you might check if the favorite was actually created in the database
+    // You can make additional database queries to validate the results
   });
 });

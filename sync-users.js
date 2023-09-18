@@ -46,5 +46,3 @@ async function syncUsersToDatabase() {
 
 // Call the function to start user synchronization
 syncUsersToDatabase();
-
-
