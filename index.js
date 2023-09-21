@@ -1,12 +1,12 @@
 const express = require('express');
 
 const app = express();
-const { router } = require('./src/routes/favourites');
+const { favouritesRouter } = require('./src/routes/favourites');
 const { posesRouter } = require('./src/routes/poses');
 
 app.use(express.json());
 
-app.use('/favourites', router);
+app.use('/favourites', favouritesRouter);
 app.use('/poses', posesRouter);
 
 const APP_PORT = process.env.PORT || 4000;
