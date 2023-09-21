@@ -5,7 +5,7 @@ const admin = require('../firebase');
 const dbConfig = {
   user: 'postgres',
   host: 'localhost',
-  database: 'yoga_app_dev',
+  database: 'yoga_app',
   password: 'password',
   port: 5432,
 };
