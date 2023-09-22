@@ -1,10 +1,12 @@
 const express = require('express');
 
 const app = express();
+const cors = require('cors');
 const { favouritesRouter } = require('./src/routes/favourites');
 const { posesRouter } = require('./src/routes/poses');
 
 app.use(express.json());
+app.use(cors());
 
 app.use('/favourites', favouritesRouter);
 app.use('/poses', posesRouter);
