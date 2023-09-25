@@ -32,22 +32,6 @@ const getFavourites = async (req, res) => {
   }
 };
 
-// get a specific user's favourites
-
-const getUserFavourites = async (req, res) => {
-  const { userId } = req.body;
-  try {
-    const { rows: favourites } = await db.query(
-      'SELECT * FROM userfavourites WHERE user_id = $1',
-      [userId]
-    );
-    res.status(200).json(favourites);
-  } catch (err) {
-    res.status(500).json(err.message);
-  }
-};
-
-// Remove a favorite pose from a user by userID
 const removeFavourite = async (req, res) => {
   const { userId, poseId } = req.body;
 
@@ -71,6 +55,5 @@ const removeFavourite = async (req, res) => {
 module.exports = {
   createFavourite,
   getFavourites,
-  getUserFavourites,
   removeFavourite,
 };
