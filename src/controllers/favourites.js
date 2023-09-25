@@ -21,8 +21,20 @@ const createFavourite = async (req, res) => {
 };
 
 // get all favourites from the favourites table
+// HM: check this logic - shouldn't need specific userID...
 
 const getFavourites = async (req, res) => {
+  try {
+    const { rows: favourites } = await db.query('SELECT * FROM userfavourites');
+    res.status(200).json(favourites);
+  } catch (err) {
+    res.status(500).json(err.message);
+  }
+};
+
+// get a specific user's favourites
+
+const getUserFavourites = async (req, res) => {
   const { userId } = req.body;
   try {
     const { rows: favourites } = await db.query(
@@ -34,10 +46,6 @@ const getFavourites = async (req, res) => {
     res.status(500).json(err.message);
   }
 };
-
-// get a specific user's favourites
-
-const getSpecificUsersFavourites = async (req, res) => {};
 
 // Remove a favorite pose from a user by userID
 const removeFavourite = async (req, res) => {
@@ -63,6 +71,6 @@ const removeFavourite = async (req, res) => {
 module.exports = {
   createFavourite,
   getFavourites,
-  getSpecificUsersFavourites,
+  getUserFavourites,
   removeFavourite,
 };
