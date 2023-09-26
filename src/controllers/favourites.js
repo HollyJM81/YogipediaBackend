@@ -8,7 +8,7 @@ const createFavourite = async (req, res) => {
     const {
       rows: [favorite],
     } = await db.query(
-      'INSERT INTO userfavourites (user_id, pose_id) VALUES ($1, $2) RETURNING *',
+      'INSERT INTO userfavourites (user_id, pose_id) VALUES ($1, $2) ON CONFLICT DO NOTHING',
       [userId, poseId]
     );
 
@@ -36,10 +36,9 @@ const removeFavourite = async (req, res) => {
   const { userId, poseId } = req.body;
 
   try {
-    // Check if the favorite item exists before deleting
     const { rowCount } = await db.query(
-      'DELETE FROM userfavourites WHERE pose_id = $1 AND user_id = $2 RETURNING *',
-      [poseId, userId]
+      'DELETE FROM userfavourites WHERE user_id = $1 AND pose_id = $2 RETURNING *',
+      [userId, poseId]
     );
 
     if (rowCount === 0) {
