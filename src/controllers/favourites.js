@@ -1,4 +1,5 @@
 const db = require('../db/index');
+const poses = require('../../data/poses.json');
 
 const createFavourite = async (req, res) => {
   const { userId, poseId } = req.body;
@@ -28,13 +29,21 @@ const getFavourites = async (req, res) => {
 
 const getUserFavourites = async (req, res) => {
   try {
-    const { id } = req.params;
+    const { userId } = req.params;
     const { rows: favourites } = await db.query(
       'SELECT * FROM userfavourites WHERE user_id = $1',
-      [id]
+      [userId]
     );
+    const favouritePoses = [];
+    favourites.map((favourite) => {
+      poses.map((pose) => {
+        if (favourite.pose_id == pose.pose_id) {
+          favouritePoses.push(pose);
+        }
+      });
+    });
 
-    res.status(200).json(favourites);
+    res.status(200).json(favouritePoses);
   } catch (err) {
     res.status(500).json({
       error:

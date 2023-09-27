@@ -10,7 +10,7 @@ const favouritesRouter = express.Router();
 
 favouritesRouter.post('/', createFavourite);
 favouritesRouter.get('/', getFavourites);
-favouritesRouter.get('/:id', getUserFavourites);
+favouritesRouter.get('/:userId', getUserFavourites);
 favouritesRouter.delete('/', removeFavourite);
 
 module.exports = { favouritesRouter };
