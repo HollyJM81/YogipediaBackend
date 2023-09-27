@@ -8,7 +8,7 @@ const createFavourite = async (req, res) => {
     const {
       rows: [favorite],
     } = await db.query(
-      'INSERT INTO userfavourites (user_id, pose_id) VALUES ($1, $2) ON CONFLICT DO NOTHING',
+      'INSERT INTO userfavourites (user_id, pose_id) VALUES ($1, $2)',
       [userId, poseId]
     );
 
