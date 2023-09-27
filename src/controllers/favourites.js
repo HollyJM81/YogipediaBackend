@@ -31,19 +31,19 @@ const getUserFavourites = async (req, res) => {
   try {
     const { userId } = req.params;
     const { rows: favourites } = await db.query(
-      'SELECT * FROM poses INNER JOIN userfavourites ON poses.pose_id = userfavourites.pose_id WHERE user_id = $1',
+      'SELECT * FROM userfavourites WHERE user_id = $1',
       [userId]
     );
-    // const favouritePoses = [];
-    // favourites.map((favourite) => {
-    //   poses.map((pose) => {
-    //     if (favourite.pose_id == pose.pose_id) {
-    //       favouritePoses.push(pose);
-    //     }
-    //   });
-    // });
+    const favouritePoses = [];
+    favourites.map((favourite) => {
+      poses.map((pose) => {
+        if (favourite.pose_id == pose.pose_id) {
+          favouritePoses.push(pose);
+        }
+      });
+    });
 
-    res.status(200).json(favourites);
+    res.status(200).json(favouritePoses);
   } catch (err) {
     res.status(500).json({
       error:
