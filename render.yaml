@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: yogipaedia
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm run migrate && node index.js
+    envVars:
+      - key: PGPORT
+        fromDatabase:
+          name: yogipaedia
+          property: port
+      - key: PGDATABASE
+        fromDatabase:
+          name: yogipaedia
+          property: database
+      - key: PGHOST
+        fromDatabase:
+          name: yogipaedia
+          property: host
+      - key: PGPASSWORD
+        fromDatabase:
+          name: yogipaedia
+          property: password
+
+databases:
+  - name: yogipaedia
+    plan: free
+    region: Frankfurt
+    databaseName: yoga_app
+    ipAllowList: []
