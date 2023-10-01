@@ -9,23 +9,23 @@ services:
     envVars:
       - key: PGPORT
         fromDatabase:
-          name: yogipaedia
+          name: yogipaedia-database
           property: port
       - key: PGDATABASE
         fromDatabase:
-          name: yogipaedia
+          name: yogipaedia-database
           property: database
       - key: PGHOST
         fromDatabase:
-          name: yogipaedia
+          name: yogipaedia-database
           property: host
       - key: PGPASSWORD
         fromDatabase:
-          name: yogipaedia
+          name: yogipaedia-database
           property: password
 
 databases:
-  - name: yogipaedia
+  - name: yogipaedia-database
     plan: free
     region: Frankfurt
     databaseName: yoga_app
