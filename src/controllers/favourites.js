@@ -1,5 +1,4 @@
 const db = require('../db/index');
-const poses = require('../../data/poses.json');
 
 const createFavourite = async (req, res) => {
   const { userId, poseId } = req.body;
@@ -34,14 +33,6 @@ const getUserFavourites = async (req, res) => {
       'SELECT * FROM poses INNER JOIN userfavourites ON poses.pose_id = userfavourites.pose_id WHERE user_id = $1',
       [userId]
     );
-    // const favouritePoses = [];
-    // favourites.map((favourite) => {
-    //   poses.map((pose) => {
-    //     if (favourite.pose_id == pose.pose_id) {
-    //       favouritePoses.push(pose);
-    //     }
-    //   });
-    // });
 
     res.status(200).json(favourites);
   } catch (err) {
