@@ -3,17 +3,11 @@ const admin = require('../firebase');
 
 // Database connection configuration
 const dbConfig = {
-  // user: 'postgres',
-  // host: 'localhost',
-  // database: 'yoga_app',
-  // password: 'password',
-  // port: 5432,
   database: PGDATABASE,
   user: PGUSER,
   password: PGPASSWORD,
   host: PGHOST,
-  port: parseInt(PGPORT),
-  ensureDatabaseExists: true,
+  port: PGPORT,
   defaultDatabase: PGDATABASE,
 };
 
