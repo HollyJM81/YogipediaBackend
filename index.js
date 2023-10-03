@@ -6,7 +6,7 @@ const { favouritesRouter } = require('./src/routes/favourites');
 const { posesRouter } = require('./src/routes/poses');
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: ['https://yogipaedia.onrender.com'] }));
 
 app.use('/favourites', favouritesRouter);
 app.use('/poses', posesRouter);
