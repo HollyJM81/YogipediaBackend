@@ -3,7 +3,7 @@ const path = require('path');
 
 const { NODE_ENV } = process.env;
 
-if (NODE_ENV !== 'production') {
+if (NODE_ENV != 'production') {
   const args = process.argv.slice(2)[0];
 
   const envFile = args === 'test' ? '../.env.test' : '../.env';
@@ -12,9 +12,7 @@ if (NODE_ENV !== 'production') {
   });
 }
 
-const {
-  PGUSER, PGHOST, PGPASSWORD, PGDATABASE, PGPORT,
-} = process.env;
+const { PGUSER, PGHOST, PGPASSWORD, PGDATABASE, PGPORT } = process.env;
 
 const config = {
   database: PGDATABASE,

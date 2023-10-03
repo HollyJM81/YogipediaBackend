@@ -5,7 +5,7 @@ const envName = process.argv.slice(2)[0];
 
 const loadEnv = (envName) => {
   const { NODE_ENV } = process.env;
-  if (NODE_ENV !== 'production') {
+  if (NODE_ENV != 'production') {
     const envFile = envName === 'test' ? '../.env.test' : '../.env';
     require('dotenv').config({
       path: path.join(__dirname, envFile),
