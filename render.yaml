@@ -23,6 +23,10 @@ services:
         fromDatabase:
           name: yoga_app
           property: password
+      - key: PGUSER
+        fromDatabase:
+          name: yoga_app
+          property: user
 
 databases:
   - name: yoga_app
