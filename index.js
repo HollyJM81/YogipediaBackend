@@ -8,8 +8,8 @@ const { posesRouter } = require('./src/routes/poses');
 app.use(express.json());
 app.use(cors());
 
-app.use('https://yogipaedia-bj0y.onrender.com/favourites', favouritesRouter);
-app.use('https://yogipaedia-bj0y.onrender.com/poses', posesRouter);
+app.use('/favourites', favouritesRouter);
+app.use('/poses', posesRouter);
 
 const APP_PORT = process.env.PORT || 4000;
 
