@@ -8,7 +8,6 @@ const dbConfig = {
   password: PGPASSWORD,
   host: PGHOST,
   port: PGPORT,
-  // defaultDatabase: PGDATABASE,
 
   // user: 'postgres',
   // host: 'localhost',
