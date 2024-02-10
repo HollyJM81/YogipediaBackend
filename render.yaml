@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: yogipaedia
+    name: yogipaediaapp
     env: node
     region: frankfurt
     plan: free
@@ -26,7 +26,7 @@ services:
       - key: PGUSER
         fromDatabase:
           name: yoga_app
-          property: user
+          property: postgres
 
 databases:
   - name: yoga_app
