@@ -23,7 +23,6 @@ const config = {
   ensureDatabaseExists: true,
   defaultDatabase: PGDATABASE,
 };
-
 // const migrationDirectory = path.join(__dirname, '..', 'migrations'); // Adjust the path to migrations folder
 
 const migrateDB = async (config) => {

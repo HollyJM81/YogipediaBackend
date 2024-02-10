@@ -5,6 +5,7 @@ const { Client } = require('pg');
 const rawData = fs.readFileSync('./data/poses.json');
 const posesData = JSON.parse(rawData);
 
+const { PGUSER, PGHOST, PGPASSWORD, PGDATABASE, PGPORT } = process.env;
 // Database connection configuration (update these values as needed)
 const dbConfig = {
   database: PGDATABASE,

@@ -9,7 +9,7 @@ const posesData = JSON.parse(rawData);
 const dbConfig = {
   user: 'postgres',
   host: 'localhost',
-  database: 'yoga_app_test',
+  database: 'yoga_app',
   password: 'password',
   port: 5432, // Change to your PostgreSQL port
 };
@@ -23,8 +23,12 @@ async function populateDatabase() {
     await client.connect();
 
     // Check if data already exists in the database
-    const { rows: existingPoses } = await client.query('SELECT pose_name FROM Poses');
-    const existingPoseNames = new Set(existingPoses.map((row) => row.pose_name));
+    const { rows: existingPoses } = await client.query(
+      'SELECT pose_name FROM Poses'
+    );
+    const existingPoseNames = new Set(
+      existingPoses.map((row) => row.pose_name)
+    );
 
     // Define the INSERT query with placeholders for all columns
     const insertQuery = `

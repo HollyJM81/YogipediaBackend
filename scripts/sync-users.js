@@ -1,7 +1,9 @@
 const { Client } = require('pg');
 const admin = require('../firebase');
+require('dotenv').config();
 
-// Database connection configuration
+const { PGUSER, PGHOST, PGPASSWORD, PGDATABASE, PGPORT } = process.env;
+
 const dbConfig = {
   database: PGDATABASE,
   user: PGUSER,
