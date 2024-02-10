@@ -26,7 +26,7 @@ services:
       - key: PGUSER
         fromDatabase:
           name: yoga_app
-          property: postgres
+          property: user
 
 databases:
   - name: yoga_app
@@ -34,3 +34,4 @@ databases:
     region: Frankfurt
     databaseName: yoga_app
     ipAllowList: []
+  #who is allowed to connect to the database - makes the database private; nobody else is allowed to connect to the database
