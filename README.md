@@ -1,5 +1,6 @@
 # Yogipedia - A Yoga App - Backend Repository
-ReadMe Under Construction! 
+ReadMe Under Construction! Available to view at [https://yogipaediapp.onrender.com/](https://yogipaediapp.onrender.com/).
+Completed as our final group project for Command Shift Bootcamp, March '23 cohort.
 
 ## Engineers
 
