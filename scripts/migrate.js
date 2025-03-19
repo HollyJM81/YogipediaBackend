@@ -14,14 +14,22 @@ if (NODE_ENV != 'production') {
 
 const { PGUSER, PGHOST, PGPASSWORD, PGDATABASE, PGPORT } = process.env;
 
+// const config = {
+//   database: PGDATABASE,
+//   user: PGUSER,
+//   password: PGPASSWORD,
+//   host: PGHOST,
+//   port: parseInt(PGPORT),
+//   ensureDatabaseExists: true,
+//   defaultDatabase: PGDATABASE,
+// };
+
 const config = {
-  database: PGDATABASE,
-  user: PGUSER,
-  password: PGPASSWORD,
-  host: PGHOST,
-  port: parseInt(PGPORT),
-  ensureDatabaseExists: true,
-  defaultDatabase: PGDATABASE,
+  user: 'postgres',
+  host: 'localhost',
+  database: 'yoga_app',
+  password: 'password',
+  port: 5433,
 };
 
 // const migrationDirectory = path.join(__dirname, '..', 'migrations'); // Adjust the path to migrations folder

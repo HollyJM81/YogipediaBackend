@@ -7,12 +7,11 @@ const posesData = JSON.parse(rawData);
 
 // Database connection configuration (update these values as needed)
 const dbConfig = {
-  database: PGDATABASE,
-  user: PGUSER,
-  password: PGPASSWORD,
-  host: PGHOST,
-  port: PGPORT,
-  defaultDatabase: PGDATABASE,
+  user: 'postgres',
+  host: 'localhost',
+  database: 'yoga_app',
+  password: 'password',
+  port: 5433,
 };
 
 // Create a PostgreSQL client
