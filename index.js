@@ -7,6 +7,11 @@ const { posesRouter } = require('./src/routes/poses');
 
 app.use(express.json());
 app.use(cors());
+// enable CORS for all routes
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+});
 
 app.use('/favourites', favouritesRouter);
 app.use('/poses', posesRouter);
